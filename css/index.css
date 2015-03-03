@@ -1,0 +1,138 @@
+.layer{
+  position:relative;
+  width:100%;
+  height:660px;
+  background:rgba(0,0,0,0.4);
+  z-index: 2;
+}
+
+.orbit-timer{
+  display:none;
+}
+
+.slideshow{
+  margin-top: -50%;
+}
+
+.orbit li img{
+  width:100%;
+  height:648px;
+}
+.imglogo{
+  margin-top: -1.5%;
+  width:200px;
+  height:70px;
+}
+
+.top-bar{
+  height:75px !important;
+  background-color: #1B1B1B;
+}
+
+.style-one{
+  height:5px;
+  background-color: #A11312;
+}
+.navlist{
+  margin-top: 1.5%;
+}
+
+.ul-list li a{
+  color: #ffffff;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-size:15px;
+  }
+
+.ul-list:hover li a{
+      text-shadow: 0px 0px 5px #ed1c24;
+      color:transparent;
+}
+.ul-list li a:hover{
+    color: #2b308c;
+    text-shadow: 0px 0px 1px #2b308c;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.contactdetails{
+  padding: 4% 0 5% 0;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.contacticon{
+  width:80px;
+}
+
+.contactform{
+  padding: 3% 0 3% 0;
+  background-color: #1B1B1B;
+}
+
+.contacttitle{
+  color:#fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.contactform input{
+  border-radius: 5px;
+  height:50px;
+  border:1px solid #2b308c;
+  background-color: transparent;
+}
+.contactform input[type=text]:focus{
+  border-radius: 5px;
+  border:1px solid #2b308c;
+  color:#fff;
+}
+.contactform textarea{
+  border-radius: 5px;
+  border:1px solid #2b308c;
+  height: 200px;
+  color:#fff;
+  background-color: transparent;
+}
+.contactform button{
+  font-size: 20px;
+  border-radius: 5px;
+  height:50px;
+  width:200px;
+  background-color: #2b308c;
+}
+.contactform button:hover{
+  background-color: #fff;
+  color:#2b308c;
+}
+::-webkit-input-placeholder {
+  color:#fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+::-moz-placeholder {
+  color:#fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+:-ms-input-placeholder {
+  color:#fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+input:-moz-placeholder {
+  color:#fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
