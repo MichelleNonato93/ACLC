@@ -27,6 +27,7 @@
 .top-bar{
   height:75px !important;
   background-color: #1B1B1B;
+  z-index: 999;
 }
 
 .style-one{
@@ -35,6 +36,7 @@
 }
 .navlist{
   margin-top: 1.5%;
+  z-index: 999;
 }
 
 .ul-list li a{
@@ -63,6 +65,52 @@
     text-transform: uppercase;
 }
 
+.apply{
+  padding: 3% 0 3% 0;
+  background-image: url('../img/banner4.jpg');
+  background-attachment: fixed;
+}
+
+.apply li{
+  -webkit-box-shadow: 10px 10px 24px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 24px -9px rgba(0,0,0,0.75);
+}
+.courseimg{
+  width:400px;
+  height:250px;
+}
+.subscribe{
+  padding: 3% 0 3% 0;
+  height:200px;
+  background-image: url('../img/banner4.jpg');
+  background-attachment: fixed;
+}
+
+.subscribe .subput {
+  height:50px;
+  border: none;
+  padding:5%;
+  background-color: #262626;
+}
+
+.subscribe .subput:focus{
+  height:50px;
+  border: none;
+  background-color: #262626;
+  color:#fff;
+}
+.subscribe .postfix{
+  font-size: 20px;
+  height:50px;
+  width:200px;
+  border: none;
+  background-color: #292e87;
+}
+
+h3{
+  color:#fff;
+}
 .contactdetails{
   padding: 4% 0 5% 0;
 }
@@ -77,7 +125,7 @@ h2{
 
 .contactform{
   padding: 3% 0 3% 0;
-  background-color: #1B1B1B;
+  background-color: #373A3E;
 }
 
 .contacttitle{
@@ -135,4 +183,53 @@ input:-moz-placeholder {
   color:#fff;
   font-family: 'Fjalla One', sans-serif;
   font-size: 15px;
+}
+
+.bottom{
+  background-color: #1B1B1B;
+}
+
+h5{
+  color:#fff;
+  padding: 5% 0 5% 0;
+  letter-spacing: 2px;
+}
+
+.maincontact{
+  color:#fff;
+  font-size: 15px;
+  margin: 2% 0 0 0;
+}
+
+.subcontact{
+  color:#fff;
+  font-size: 15px;
+}
+
+.links a{
+  color: #fff;
+  font-size: 15px;
+}
+
+.dir a:hover{
+  color: #2b308c;
+}
+
+.schoolsub{
+  color:#fff;
+  font-size: 15px;
+}
+
+footer{
+  background-color: #000;
+  color:#fff;
+  padding:1.5% ;
+}
+
+.aboutus{
+  padding: 3% 0 3% 0;
+}
+
+article{
+  text-align: justify;
 }
